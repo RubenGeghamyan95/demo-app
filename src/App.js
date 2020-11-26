@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-//import Counter from './classes';
-import List from './list'
+import Counter from './Counter/counter';
+//import List from './list'
 
 function App() {
 
-  const colors = ['green','yellow','orange','light red','red']    
+  //const colors = ['green','yellow','orange','light red','red']    
   return (
     <div className="App">
-      <List colors = {colors} />
+      {/* <List colors = {colors} /> */}
+      <Counter/>
     </div>
   );
 }
